@@ -1,0 +1,137 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+$brand-primary: #86bc42;
+
+html, body {
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 100;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 64px;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-family: 'Cuprum', sans-serif;
+}
+
+.header {
+  background-image: url("/imgs/gamba/banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(00,00,00,0.2);
+  height: 750px;
+  width: 100%;
+  color: white;
+  .row {
+    padding: 5px 0;
+  }
+  span {
+    font-size: 12px;
+  }
+  hr {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.3);
+    width: 100vw;
+  }
+  .icon {
+    font-size: 10px;
+    margin: 0 4px;
+    &.fa-circle {
+      font-size: 7px;
+    }
+    &.fa-clock {
+      font-size: 9px;
+    }
+    &.fa-shopping-cart {
+      border-left: 1px solid rgba(255,255,255,0.4);
+      padding-left: 14px;
+    }
+  }
+  .mr-6p {
+    margin-right: 6px;
+  }
+  .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    &:hover, :focus, :active {
+      color: $brand-primary;
+    }
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-transform: capitalize;
+    &.active {
+      color: $brand-primary;
+    }
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+  .fa-search {
+    padding: 0 0.5rem;
+  }
+  .header-content {
+    height: calc(100% - 30px);
+  }
+  .welcome {
+    min-height: 70px;
+    margin: 40px 0;
+  }
+  .deco {
+    min-height: 20px;
+  }
+  .underline {
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    width: 20px;
+    display: inline-block;
+    box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.3);
+    margin: 0 5px;
+  }
+  .fa-leaf {
+    transform:rotate(-50deg);
+  }
+  .text-arc {
+    position: relative;
+    top: -35px;
+    left: -2px;
+    transform: rotate(40deg);
+    span {
+      position: absolute;
+      transform-origin: top center;
+      padding-top: 60px;
+      font-size: 14px;
+    }
+  }
+  @for $i from 1 through 12 {
+    .char#{$i} { transform:(rotate(($i*-6)+deg)) }
+  }
+  h2 {
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+}

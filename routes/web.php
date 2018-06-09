@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/gamba', function () {
+    return view('gamba');
+});
