@@ -33,8 +33,7 @@
       </div>
     </div>
     <hr/>
-
-    <div class="container header-content">
+    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent row d-flex align-items-center">
         <a class="navbar-brand" href="#">Gamba</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +51,8 @@
           </div>
         </div>
       </nav>
-
+    </div>
+    <div class="container header-content">
       <section class="welcome">
         <div class="deco d-flex align-items-center justify-content-center">
           <span class="underline"></span>
@@ -78,9 +78,16 @@
         <div>
           <h1>Organic</h1>
           <h2 class="subtitle">Good for natural, good for you</h2>
+          <a class=" btn btn-primary">
+            Shop now
+          </a>
         </div>
       </section>
     </div>
   </div>
+  <!-- End of header -->
+  <section class="introduction">
+
+  </section>
 </body>
 </html>
