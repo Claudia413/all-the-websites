@@ -90,7 +90,7 @@
     <h3>Welcome to Gamba</h3>
     <div class="usp-block">
       <div class="icon-container">
-        <img class="icon-brocoli" alt="brocoli icon" />
+        <span class="fas fa-frog" alt="frog icon"></span>
       </div>
       <h5>100% Natural</h5>
       <p>
@@ -99,7 +99,7 @@
     </div>
     <div class="usp-block">
       <div class="icon-container">
-        <img class="icon-brocoli" alt="brocoli icon" />
+        <span class="fas fa-frog" alt="frog icon" ></span>
       </div>
       <h5>Organic Products</h5>
       <p>
@@ -114,7 +114,7 @@
     </div>
     <div class="usp-block">
       <div class="icon-container">
-        <img class="icon-brocoli" alt="brocoli icon" />
+        <span class="fas fa-frog" alt="frog icon" ></span>
       </div>
       <h5>Always Fresh</h5>
       <p>
@@ -122,7 +122,7 @@
       </p>
     </div><div class="usp-block">
       <div class="icon-container">
-        <img class="icon-brocoli" alt="brocoli icon" />
+        <span class="fas fa-frog" alt="frog icon" ></span>
       </div>
       <h5>Best Quality</h5>
       <p>

@@ -177,8 +177,18 @@ h3 {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
   }
+  .center-img {
+    position: relative;
+  }
   .introduction-img {
     width: 100%;
     height: auto;
+  }
+  .ab-circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
   }
 }
