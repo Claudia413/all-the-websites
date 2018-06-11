@@ -86,8 +86,49 @@
     </div>
   </div>
   <!-- End of header -->
-  <section class="introduction">
-
+  <section class="introduction container">
+    <h3>Welcome to Gamba</h3>
+    <div class="usp-block">
+      <div class="icon-container">
+        <img class="icon-brocoli" alt="brocoli icon" />
+      </div>
+      <h5>100% Natural</h5>
+      <p>
+        We care about what you eat. We want to produce food which nourishes your body and tastes delicious.
+      </p>
+    </div>
+    <div class="usp-block">
+      <div class="icon-container">
+        <img class="icon-brocoli" alt="brocoli icon" />
+      </div>
+      <h5>Organic Products</h5>
+      <p>
+        We care about what you eat. We want to produce food which nourishes your body and tastes delicious.
+      </p>
+    </div>
+    <div class="center-img">
+      <img src="/imgs/gamba/stayhealthy.jpg" class="introduction-img" alt="a variety of veggies; cucumber, pepper, zuchinni, lemon, herbs, apples" />
+      <div class="ab-circle">
+        Stay Healthy
+      </div>
+    </div>
+    <div class="usp-block">
+      <div class="icon-container">
+        <img class="icon-brocoli" alt="brocoli icon" />
+      </div>
+      <h5>Always Fresh</h5>
+      <p>
+        We care about what you eat. We want to produce food which nourishes your body and tastes delicious.
+      </p>
+    </div><div class="usp-block">
+      <div class="icon-container">
+        <img class="icon-brocoli" alt="brocoli icon" />
+      </div>
+      <h5>Best Quality</h5>
+      <p>
+        We care about what you eat. We want to produce food which nourishes your body and tastes delicious.
+      </p>
+    </div>
   </section>
 </body>
 </html>
