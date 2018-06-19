@@ -130,5 +130,13 @@
       </p>
     </div>
   </section>
+  <section class="photo-banner">
+    <h4>Eat better</h3>
+    <h3>Feel better</h4>
+    <span>We produce food in a way which is honest, natural and transparent</span>
+    <a class=" btn btn-primary">
+      Shop now
+    </a>
+  </section>
 </body>
 </html>
