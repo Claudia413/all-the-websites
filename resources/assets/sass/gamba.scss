@@ -203,3 +203,12 @@ h3 {
     grid-column: 1 / 2;
   }
 }
+
+.photo-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: darkgreen;
+}
