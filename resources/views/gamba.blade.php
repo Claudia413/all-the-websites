@@ -138,5 +138,25 @@
       Shop now
     </a>
   </section>
+  <section>
+    <h3>Our Prouct</h3>
+    <ul class="row">
+      <li>
+        <a href="#">All</a>
+      </li>
+      <li>
+        <a href="#">Vegetables</a>
+      </li>
+      <li>
+        <a href="#">Juices</a>
+      </li>
+      <li>
+        <a href="#">Dried Products</a>
+      </li>
+    </ul>
+    <div class="product-grid">
+      
+    </div>
+  </section>
 </body>
 </html>
